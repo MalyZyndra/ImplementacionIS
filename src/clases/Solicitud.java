@@ -14,6 +14,12 @@ public class Solicitud
     private Retiro retiro;
     
     public void crearRetiro() {};
+    public void asignarEstado(String estado) {};
+    public void asignarFechaCreacion(Date fecha) {};
+    public void consultarEstado() {};
+    public String devolverEstado() {
+    	return estado;
+    };
 
     public Solicitud(int id_solicitud, Date fecha_creacion, Date fecha_fin, String estado, String ubicacion, Zona zona, Cliente cliente) {};
 }
