@@ -4,8 +4,8 @@ public class Cliente extends Persona
 {
     private int id_usuario;
     
-    public void iiciarSolicitud() {};
-    public void igresarDatos(String datos, String ubicacion) {};
+    public void iniciarSolicitud() {};
+    public void ingresarDatos(String datos, String ubicacion) {};
     public void editarSolicitud(Solicitud s) {};
     public void consultareEstadoSolicitud(Solicitud s) {};
     
